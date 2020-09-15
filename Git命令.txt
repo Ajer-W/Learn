@@ -16,4 +16,5 @@ git reset --hard 版本号 //回退整个仓库到指定的版本号
 git push -f -u origin master //将本地仓库强制提交到远程仓库
 git reset 版本号 "文件名" //将指定文件回退到某个版本
 git checkout fileName //检出文件
-git revert --no-commit 版本号 //将库回滚到指定版本，并且保留之前提交的版本
+git revert --no-commit 版本号 //将库回滚到指定版本，并且保留之前提交的版本 
+git reset //撤销所有暂存
