@@ -8,7 +8,6 @@ git add "文件" //将工作区的文件添加到暂存区
 git commit -m "测试" //将暂存区的内容提交到仓库区，-m为备注信息
 git push origin master  //将仓库区的内容推送到远程仓库GitHub上
 ls //用来显示目录或具体文件列表
-git reset commitId "文件名" //将文件回退到某个版本
 git log fileName //查看文件的日志
 touch .gitignore //创建忽略名单文件
 echo "文件名" > .gitignore //将指定文件添加到忽略名单
@@ -17,3 +16,4 @@ git reset --hard 版本号 //回退整个仓库到指定的版本号
 git push -f -u origin master //将本地仓库强制提交到远程仓库
 git reset 版本号 "文件名" //将指定文件回退到某个版本
 git checkout fileName //检出文件
+git revert --no-commit 版本号 //将库回滚到指定版本，并且保留之前提交的版本
