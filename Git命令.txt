@@ -26,3 +26,5 @@ git branch -d 分支名称 //删除本地分支
 git push origin --delete 分支名称 //删除远程仓库分支
 git clean -n //将要删除哪些文件
 git clean -f //执行删除文件 -df删除文件和目录
+git log //查看日志 退不出来 按q即可退出
+git log fileName //查看某个文件的日志
