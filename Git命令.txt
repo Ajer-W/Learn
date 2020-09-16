@@ -21,3 +21,14 @@ git checkout fileName //检出文件
 git revert --no-commit 版本号 //将库回滚到指定版本，并且保留之前提交的版本 
 git reset //撤销所有暂存
 git diff //显示暂存区和工作区的差异
+git merge 分支名称 //将某个分支合并到当前分支下
+git branch -d 分支名称 //删除本地分支
+git push origin --delete 分支名称 //删除远程仓库分支
+git clean -n //将要删除哪些文件
+git clean -f //执行删除文件 -df删除文件和目录
+git log //查看日志 退不出来 按q即可退出
+git log fileName //查看某个文件的日志
+git rm * -r //删除所有文件
+git rm fileName //删除指定文件
+git log 分支名 ^origin/分支名 //查看未推送的提交详情
+git checkout 分支名 //切换分支
