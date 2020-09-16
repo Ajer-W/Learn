@@ -30,3 +30,5 @@ git log //查看日志 退不出来 按q即可退出
 git log fileName //查看某个文件的日志
 git rm * -r //删除所有文件
 git rm fileName //删除指定文件
+git log 分支名 ^origin/分支名 //查看未推送的提交详情
+git checkout 分支名 //切换分支
