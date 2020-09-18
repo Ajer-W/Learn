@@ -33,3 +33,4 @@ git rm * -r //删除所有文件
 git rm fileName //删除指定文件
 git log 分支名 ^origin/分支名 //查看未推送的提交详情
 git checkout 分支名 //切换分支
+git remote show origin //显示当前仓库信息
