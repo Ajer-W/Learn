@@ -23,6 +23,7 @@ git revert --no-commit 版本号 //将库回滚到指定版本，并且保留之
 git reset //撤销所有暂存
 git diff //显示暂存区和工作区的差异
 git merge 分支名称 //将某个分支合并到当前分支下
+git rebase 分支名称 //将某个分支合并到当前分支下 保留记录
 git branch -d 分支名称 //删除本地分支
 git push origin --delete 分支名称 //删除远程仓库分支
 git clean -n //将要删除哪些文件
