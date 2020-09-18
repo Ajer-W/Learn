@@ -34,3 +34,4 @@ git rm fileName //删除指定文件
 git log 分支名 ^origin/分支名 //查看未推送的提交详情
 git checkout 分支名 //切换分支
 git remote show origin //显示当前仓库信息
+git fetch --all &&  git reset --hard origin/master && git pull//远程覆盖本地
