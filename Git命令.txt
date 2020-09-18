@@ -4,7 +4,7 @@ vi fileName//文件存在则打开，没有则创建文件再打开 注：打开
 touch fileName //创建文件
 git init //初始化项目所在目录，初始化后会在当前目录下出现一个名为 .git 的目录。
 git remote add origin "https" //添加远程仓库
-git remote rm origin //移除本地仓库
+git remote rm origin //移除本地仓库地址
 git pull --rebase origin master //获取远程仓库与本地同步（远程仓库不为空）
 git add "文件" //将工作区的文件添加到暂存区
 git commit -a -m "描述" //包含 git add git commit -m
