@@ -38,3 +38,4 @@ git checkout 分支名称 //切换分支
 git remote show origin //显示当前仓库信息
 git fetch --all &&  git reset --hard origin/master && git pull//远程覆盖本地
 git remote update //更新远程分支列表
+git checkout -b 分支名称//创建分支并切换到该分支
